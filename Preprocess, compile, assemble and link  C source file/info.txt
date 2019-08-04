@@ -1,0 +1,14 @@
+Preprocessing C:
+gcc -E integer.c add.c
+
+C to assembly: (compile)
+gcc -Og -S integer.c add.c
+
+C to relocatable object code: (assemble)
+gcc -Og -c integer.c add.c
+
+C to executable: (link)
+gcc -Og -o p integer.o add.o
+./p
+
+
