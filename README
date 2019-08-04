@@ -1,0 +1,8 @@
+Created by: Ashikul Hosen, Email: sagor.ashikul@gmail.com
+
+To run the software, install flex and bison first.
+
+type in bash:
+
+"flex filename.l" for flex files.
+"bison -d filename.y" for bison files.
